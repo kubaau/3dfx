@@ -1,0 +1,225 @@
+# id mesh material
+# shader rasterizer_state, ds_state, blend_state
+# rotation (without pi)
+# scale
+# translation
+
+#floor floor floor
+#basic default default default
+#0 0 0
+#1 1 1
+#0 0 0
+
+#wall wall wall
+#basic default default default
+#0 0 0
+#1 1 1
+#0 0 0
+
+#mirror mirror mirror
+#basic default default default
+#0 0 0
+#1 1 1
+#0 0 0
+
+#sphere sphere sphere
+#basic default default default
+#0 0 0
+#3 3 3
+#0 0 0
+
+#cylinder cylinder cylinder
+#basic default default default
+#0 0 0
+#2 2 2
+#-3 0 0
+
+waves_cpu waves_cpu waves_cpu
+water 0
+basic basic default default transparent
+0 0 0
+0.2 0.2 0.2
+0 0.1 0
+
+land land land
+grass 1
+5 0 0 0
+0 5 0 0
+0 0 5 0
+0 0 0 1
+basic basic default default default
+0 0 0
+0.2 0.2 0.2
+0 0 0
+
+box box box
+fence 0
+basic basic no_cull default default
+0 0 0
+1.5 1.5 1.5
+0 0.0 0
+
+skull skull skull
+floor2 0
+basic basic_no_tex default default default
+0 0 0
+0.5 0.5 0.5
+0 1 0
+
+grid grid grid
+floor2 1
+6 0 0 0
+0 8 0 0
+0 0 1 0
+0 0 0 0
+basic basic default default default
+0 0 0
+20 1 30
+0 0 0
+
+box box box 
+stone 0
+basic basic default default default
+0 0 0
+3 1 3
+0 0.5 0
+
+sphere1 geosphere sphere 
+stone 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+-5 3.5 -10
+
+sphere2 sphere sphere
+stone 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+-5 3.5 -5
+
+sphere3 sphere sphere
+stone 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+-5 3.5 0
+
+sphere4 sphere sphere
+stone 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+-5 3.5 5
+
+sphere5 sphere sphere
+stone 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+-5 3.5 10
+
+sphere6 sphere sphere
+stone 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+5 3.5 -10
+
+sphere7 sphere sphere
+stone 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+5 3.5 -5
+
+sphere8 sphere sphere
+stone 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+5 3.5 0
+
+sphere9 sphere sphere
+stone 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+5 3.5 5
+
+sphere10 sphere sphere
+stone 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+5 3.5 10
+
+cylinder1 cylinder cylinder
+brick 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+-5 1.5 -10
+
+cylinder2 cylinder cylinder
+brick 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+-5 1.5 -5
+
+cylinder3 cylinder cylinder
+brick 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+-5 1.5 0
+
+cylinder4 cylinder cylinder
+brick 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+-5 1.5 5
+
+cylinder5 cylinder cylinder
+brick 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+-5 1.5 10
+
+cylinder6 cylinder cylinder
+brick 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+5 1.5 -10
+
+cylinder7 cylinder cylinder
+brick 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+5 1.5 -5
+
+cylinder8 cylinder cylinder
+brick 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+5 1.5 0
+
+cylinder9 cylinder cylinder
+brick 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+5 1.5 5
+
+cylinder10 cylinder cylinder
+brick 0
+basic basic default default default
+0 0 0
+0.5 0.5 0.5
+5 1.5 10

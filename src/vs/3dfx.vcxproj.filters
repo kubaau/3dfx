@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="OS">
+      <UniqueIdentifier>{3ddb9d65-b72b-4097-9a56-a0e8c8b576dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\Windows">
+      <UniqueIdentifier>{33a7ed86-a89a-4d2a-b096-9ac37006cb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{cc23f12b-8f4e-40eb-ab17-578e3e1e7ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{cecb8c98-c3e8-4078-a163-2cbd6a12d923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{95ed6e03-7464-4035-8193-f3902d715996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{414a170b-fb77-4a83-848e-38dbeb0fc7bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\DX">
+      <UniqueIdentifier>{061a8fa4-6f0b-4f4a-9f53-73cf63548673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\DX\HLSL">
+      <UniqueIdentifier>{6dfec18f-57d7-4ee9-9fd2-a60af2aad2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\DX\Core">
+      <UniqueIdentifier>{f3b3c85c-0bef-43b1-8ad4-fe527b73af9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\DX\Settings">
+      <UniqueIdentifier>{cfa61cc2-6a76-409b-80ed-dfad807eee1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\DX\Assets">
+      <UniqueIdentifier>{5464ad77-108c-44a0-99af-aa9752b76d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\DX\Scene">
+      <UniqueIdentifier>{00d58d69-25a6-47c4-b135-29afc5864861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\SpecialEffects">
+      <UniqueIdentifier>{c52101ac-53cc-4547-8912-d5fcf0a5ee8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cpp\WinMain.cpp">
+      <Filter>OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\WinApiWindow.cpp">
+      <Filter>OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\WinMainWndProc.cpp">
+      <Filter>OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\App.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\AppMainLoop.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\WinMsgHandler.cpp">
+      <Filter>OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\WinApiWindowFactory.cpp">
+      <Filter>OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\WindowEvents.cpp">
+      <Filter>OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Externs.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DXCore.cpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DXAssets.cpp">
+      <Filter>Graphics\DX\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DXDebugUtils.cpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DXEngine.cpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DXEngineFactory.cpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DXMesh.cpp">
+      <Filter>Graphics\DX\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DXRenderable.cpp">
+      <Filter>Graphics\DX\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DXScene.cpp">
+      <Filter>Graphics\DX\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DXSettings.cpp">
+      <Filter>Graphics\DX\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DXMeshGenerators.cpp">
+      <Filter>Graphics\DX\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DXWavesCpu.cpp">
+      <Filter>Graphics\DX\Assets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cpp\WinApiWindow.hpp">
+      <Filter>OS\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\WinTypedefs.hpp">
+      <Filter>OS\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\WinMainWndProc.hpp">
+      <Filter>OS\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\App.hpp">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Command.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Point.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\OsMsgHandler.hpp">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\WinMsgHandler.hpp">
+      <Filter>OS\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\WindowFactory.hpp">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\WinApiWindowFactory.hpp">
+      <Filter>OS\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Interface.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Window.hpp">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\AppMainLoop.hpp">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Main.hpp">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\WindowEvent.hpp">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\WindowEvents.hpp">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\OsTypedefs.hpp">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\GraphicsEngine.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\CheckResult.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\GraphicsEngineFactory.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\GraphicsTypedefs.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Timer.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\ContainerTypedefs.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\IdTypedefs.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\ReadFile.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXCore.hpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\CBPerFrame.hpp">
+      <Filter>Graphics\DX\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\CBPerObject.hpp">
+      <Filter>Graphics\DX\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\ConstantBuffer.hpp">
+      <Filter>Graphics\DX\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\ComPtr.hpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXAssets.hpp">
+      <Filter>Graphics\DX\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXColor.hpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXDebugUtils.hpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXEngine.hpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXEngineFactory.hpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXMaterial.hpp">
+      <Filter>Graphics\DX\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXMathTypedefs.hpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXMathUtils.hpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXMesh.hpp">
+      <Filter>Graphics\DX\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXRenderable.hpp">
+      <Filter>Graphics\DX\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXScene.hpp">
+      <Filter>Graphics\DX\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXSettings.hpp">
+      <Filter>Graphics\DX\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXTypedefs.hpp">
+      <Filter>Graphics\DX\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXVertex.hpp">
+      <Filter>Graphics\DX\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXMeshGenerators.hpp">
+      <Filter>Graphics\DX\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\IoTypedefs.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXWavesCpu.hpp">
+      <Filter>Graphics\DX\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXLights.hpp">
+      <Filter>Graphics\DX\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\CBRarely.hpp">
+      <Filter>Graphics\DX\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Fog.hpp">
+      <Filter>Graphics\SpecialEffects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\assets\materials.txt">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="..\..\assets\scene.txt">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="..\..\assets\models.txt">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="..\..\assets\lights.txt">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="..\..\assets\lights_wip.txt">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="..\..\assets\scene_wip.txt">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="..\..\assets\textures.txt">
+      <Filter>Assets</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\hlsl\BasicPS.hlsl">
+      <Filter>Graphics\DX\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\hlsl\BasicVS.hlsl">
+      <Filter>Graphics\DX\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\hlsl\BasicPSNoClipNoFog.hlsl">
+      <Filter>Graphics\DX\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\hlsl\BasicPSNoTexNoClipNoFog.hlsl">
+      <Filter>Graphics\DX\HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\hlsl\Material.hlsl">
+      <Filter>Graphics\DX\HLSL</Filter>
+    </None>
+    <None Include="..\hlsl\VSStructs.hlsl">
+      <Filter>Graphics\DX\HLSL</Filter>
+    </None>
+    <None Include="..\hlsl\ConstantBuffers.hlsl">
+      <Filter>Graphics\DX\HLSL</Filter>
+    </None>
+    <None Include="..\hlsl\Utils.hlsl">
+      <Filter>Graphics\DX\HLSL</Filter>
+    </None>
+    <None Include="..\hlsl\Lights.hlsl">
+      <Filter>Graphics\DX\HLSL</Filter>
+    </None>
+    <None Include="..\hlsl\States.hlsl">
+      <Filter>Graphics\DX\HLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>

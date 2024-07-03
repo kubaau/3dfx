@@ -1,0 +1,18 @@
+// ambient, diffuse, specular, direction / ambient, diffuse, specular, position, range, attenuation / ambient, diffuse, specular, direction, position, range, attenuation, spot
+point
+0.3 0.3 0.3 1.0
+0.7 0.7 0.7 1.0
+0.7 0.7 0.7 1.0
+0.0 0.0 0.0
+10000.0
+0.0 0.2 0.0
+
+spot
+0.0 0.0 0.0 1.0
+1.0 1.0 0.0 1.0
+1.0 1.0 1.0 1.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+10000.0
+1.0 0.0 0.0
+96.0

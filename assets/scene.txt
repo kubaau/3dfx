@@ -1,0 +1,55 @@
+# id mesh mesh_offset vertex_count material 
+# tex has_tex_transforms
+# vertex_shader, pixel_shader, rasterizer_state, ds_state, blend_state
+# rotation (without pi)
+# scale
+# translation
+# reflectable reflecting
+
+skull1 skull 0 0 skull
+floor2 0
+basic basic_no_tex default default default
+0.0 0.5 0.0
+0.45 0.45 0.45
+0.0 1.0 -5.0
+1 0
+
+skull2 skull 0 0 skull
+floor2 0
+basic basic_no_tex default default default
+-0.25 0.0 0.0
+0.25 0.25 0.25
+0.0 4.0 0.0
+1 0
+
+floor room 0 6 room
+floor 0
+basic basic default default default
+0 0 0
+1 1 1
+0 0 0
+1 0
+
+wall room 6 18 room
+wall 0
+basic basic default default default
+0 0 0
+1 1 1
+0 0 0
+1 0
+
+mirror room 24 6 room
+mirror 0
+basic basic default default default
+0 0 0
+1 1 1
+0 0 0
+0 1
+
+mirror2 mirror 0 0 room
+mirror 0
+basic basic default default default
+0 1 0
+1 1 1
+0 0 0
+0 0
