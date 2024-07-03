@@ -95,7 +95,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <DisableSpecificWarnings>
       </DisableSpecificWarnings>
-      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp;tools/VSCompatibility.hpp</ForcedIncludeFiles>
+      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp</ForcedIncludeFiles>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -110,7 +110,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <DisableSpecificWarnings>
       </DisableSpecificWarnings>
-      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp;tools/VSCompatibility.hpp</ForcedIncludeFiles>
+      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp</ForcedIncludeFiles>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -127,7 +127,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <DisableSpecificWarnings>
       </DisableSpecificWarnings>
-      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp;tools/VSCompatibility.hpp</ForcedIncludeFiles>
+      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp</ForcedIncludeFiles>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -147,7 +147,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <DisableSpecificWarnings>
       </DisableSpecificWarnings>
-      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp;tools/VSCompatibility.hpp</ForcedIncludeFiles>
+      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp</ForcedIncludeFiles>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
