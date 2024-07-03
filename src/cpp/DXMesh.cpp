@@ -34,7 +34,7 @@ Mesh::Mesh(Context& context, InputLayout& il, Topology topology, Device& device,
 
     using Vertex = VertexPNT;
 
-    constexpr auto base_filename = "../../../assets/models/";
+    constexpr auto base_filename = "../../assets/models/";
     const string file_path = base_filename + filename;
     ifstream file_in{file_path};
     check(file_in, "Model not found - " + file_path);

@@ -110,7 +110,7 @@ void DXAssets::initTexArray(const TexInfo& tex)
 
 namespace
 {
-    const string tex_dir = "../../../assets/textures/";
+    const string tex_dir = "../../assets/textures/";
 }
 
 void DXAssets::initSingleTex(const TexInfo& tex)

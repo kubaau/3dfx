@@ -65,29 +65,29 @@
     <OutDir>$(ProjectDir)..\..\build\$(Configuration)-$(PlatformName)\</OutDir>
     <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
     <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
-    <IncludePath>$(ProjectDir)..\cpp;$(ProjectDir)..\..\..;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)..\..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\cpp;$(ProjectDir)..\..;$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(ProjectDir)..\..\build\$(Configuration)-$(PlatformName)\</OutDir>
     <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
     <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
-    <IncludePath>$(ProjectDir)..\cpp;$(ProjectDir)..\..\..;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)..\..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\cpp;$(ProjectDir)..\..;$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(ProjectDir)..\..\build\$(Configuration)-$(PlatformName)\</OutDir>
     <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
     <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
-    <IncludePath>$(ProjectDir)..\cpp;$(ProjectDir)..\..\..;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)..\..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\cpp;$(ProjectDir)..\..;$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(ProjectDir)..\..\build\$(Configuration)-$(PlatformName)\</OutDir>
     <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
     <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
-    <IncludePath>$(ProjectDir)..\cpp;$(ProjectDir)..\..\..;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)..\..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\cpp;$(ProjectDir)..\..;$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
